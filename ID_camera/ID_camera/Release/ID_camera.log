@@ -1,0 +1,13 @@
+﻿生成启动时间为 2018/7/4 10:26:26。
+     1>项目“F:\VisualStudio\ID_recognition\ID_camera\ID_camera\ID_camera.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VisualStudio\ID_recognition\ID_camera\Release\ID_camera.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\opencv\opencv\build\x86\vc12\lib opencv_world320.lib opencv_world320d.lib opencv_world320.lib opencv_world320d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\VisualStudio\ID_recognition\ID_camera\Release\ID_camera.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VisualStudio\ID_recognition\ID_camera\Release\ID_camera.lib" /MACHINE:X86 /SAFESEH Release\id_card_font.obj
+         Release\jiaozheng.obj
+         Release\lsd.obj
+         Release\test.obj
+     1>opencv_world320.lib(opencv_world320.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“F:\VisualStudio\ID_recognition\ID_camera\ID_camera\ID_camera.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.69

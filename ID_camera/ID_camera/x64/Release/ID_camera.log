@@ -1,0 +1,43 @@
+﻿生成启动时间为 2018/7/5 20:26:42。
+     1>项目“F:\VisualStudio\ID_camera\ID_camera\ID_camera.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\opencv\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt id_card_font.cpp jiaozheng.cpp lsd.cpp test.cpp
+         id_card_font.cpp
+     1>D:\ProgramData\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         jiaozheng.cpp
+     1>D:\ProgramData\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>jiaozheng.cpp(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>jiaozheng.cpp(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>jiaozheng.cpp(237): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>jiaozheng.cpp(375): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>jiaozheng.cpp(383): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+         lsd.cpp
+         test.cpp
+     1>D:\ProgramData\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\ProgramData\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>test.cpp(78): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>test.cpp(80): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>test.cpp(178): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>test.cpp(179): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>test.cpp(180): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>test.cpp(199): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VisualStudio\ID_camera\x64\Release\ID_camera.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\opencv\opencv\build\x86\vc12\lib opencv_world320.lib opencv_world320d.lib opencv_world320.lib opencv_world320d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\VisualStudio\ID_camera\x64\Release\ID_camera.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VisualStudio\ID_camera\x64\Release\ID_camera.lib" /MACHINE:X64 x64\Release\id_card_font.obj
+         x64\Release\jiaozheng.obj
+         x64\Release\lsd.obj
+         x64\Release\test.obj
+         正在生成代码
+         已完成代码的生成
+         ID_camera.vcxproj -> F:\VisualStudio\ID_camera\x64\Release\ID_camera.exe
+     1>已完成生成项目“F:\VisualStudio\ID_camera\ID_camera\ID_camera.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.71
